@@ -1,9 +1,15 @@
 ImpSimCluster
 =============
 
-Authorship clustering using impostor similarity.
+Authorship clustering using impostor similarity. This code can be used for both Authorship Verification (given two documents decide whether they are written by the same author or not) as well as Authorship Clustering (given a large set of documents by an unknown number of authors, cluster the documents into author clusters).
 
-This is the code from the paper Efficient Authorship Clustering Using Impostor Similarity 
+This is the code from the paper 
+Efficient Authorship Clustering Using Impostor Similarity 
 by Patrick Verga, James Allan, Brian Levine, and Marc Liberatore at UMass Amherst
 
+Our method uses Locality Sensitive Hashing to more efficiently perform agglomerative clustering using Impostor Similarity
 
+You can adapt the code under the 'experiments' package to fit your needs. The BlogExperiment class can be used with data at
+http://u.cs.biu.ac.il/~koppel/BlogCorpus.htm into a dir called './data/blog'
+
+For questions you can email me at pat@cs.umass.edu
