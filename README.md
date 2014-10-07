@@ -1,4 +1,4 @@
-ImpSimCluster
+imp-sim-cluster
 =============
 
 Authorship clustering using impostor similarity. This code can be used for both Authorship Verification (given two documents decide whether they are written by the same author or not) as well as Authorship Clustering (given a large set of documents by an unknown number of authors, cluster the documents into author clusters).
