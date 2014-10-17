@@ -1,7 +1,7 @@
 package co.pemma.authorVerification;
 
+
 import cc.factorie.app.strings.PorterStemmer;
-import co.pemma.authorVerification.Utilities;
 import org.apache.mahout.math.SequentialAccessSparseVector;
 import org.apache.mahout.math.Vector;
 import org.javatuples.Pair;
