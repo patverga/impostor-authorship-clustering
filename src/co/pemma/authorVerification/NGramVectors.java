@@ -240,7 +240,7 @@ public class NGramVectors
 				tf = ngramFreq.getValue();///postNGrams.size();
 				if (IDF)
 					// multiply by inverse document frequency
-					idf = (Math.log( size / (1+documentOccurances.get(ngram)) )/size);
+					idf = Math.log( size / (1+documentOccurances.get(ngram)) );
 				else
 					idf=1;
 				vector.set(nGramIndices.get(ngram), (tf*idf) );
